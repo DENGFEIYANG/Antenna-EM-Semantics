@@ -1,0 +1,28 @@
+{
+  "id": "antenna_2",
+  "topology": "SIW Leaky-Wave Antenna",
+  "style": ["slot-array", "siw", "microstrip-like"],
+  "performance": {
+    "center_frequency_ghz": [12.25],
+    "fbw_percent": [8.2],
+    "gain_dbi": [9.6]
+  },
+  "classes": {
+    "bands": ["X","Ku","K","Ka","V","W"],
+    "fbw_class": "Medium",
+    "pattern": "Endfire",
+    "pol": "Linear",
+    "gain_class": "High"
+  },
+  "physical": {
+    "diameter_mm": 80,
+    "height_mm": 1.524
+  },
+  "training_captions": [
+    "Substrate-integrated waveguide leaky-wave antenna with via-fence sidewalls and a single longitudinal slot array on the top copper; linear polarization, endfire/directive beam, medium fractional bandwidth; Ku-band-capable via scaling.",
+    "Planar SIW slab fed by a microstrip-to-SIW transition, radiating through a row of staggered/tilted slots that leak energy along the guide; linear-pol, endfire scanning behavior with high directivity; usable in the Ku band.",
+    "Compact SIW slot array: periodic vias form waveguide walls while the top metallization carries narrow slots with gradually varied length/spacing to control leakage; linear polarization, endfire main lobe, medium FBW."
+  ]
+}
+
+
