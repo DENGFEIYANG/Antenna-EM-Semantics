@@ -1,0 +1,28 @@
+{
+  "id": "antenna_001",
+  "topology": "Dual Microstrip Patch",
+  "style": ["standard"],
+  "performance": {
+    "center_frequency_ghz": [2.5, 4.7],
+    "fbw_percent": [2, 2.3],
+    "gain_dbi": [7.8, 6.7]
+  },
+  "classes": {
+    "bands": ["S","C","X","Ku","K","Ka","V","W"],
+    "fbw_class": "Narrow",
+    "pattern": "Broadside",
+    "pol": "Linear",
+    "gain_class": "Mid"
+  },
+  "physical": {
+    "diameter_mm": 197,
+    "height_mm": 3
+  },
+  "training_captions": [
+    "Dual-band microstrip patch antenna concept, linear polarization and a broadside radiation pattern, narrow fractional bandwidth with mid gain, scalable usability across S/C/X/Ku/K/Ka/V/W bands.",
+    "Dual microstrip patch radiator on a dielectric slab; narrow FBW, mid-gain response, broadside main lobe and linear polarization; suitable when scaled for S through W bands.",
+    "Dual-resonant microstrip patch geometry for generative design—linear polarization, broadside beam, narrow-band response with mid gain; scalable to S, C, X, Ku, K, Ka, V, W."
+  ]
+}
+
+

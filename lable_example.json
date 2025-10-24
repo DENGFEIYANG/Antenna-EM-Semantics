@@ -1,0 +1,28 @@
+{
+  "id": "patch_antenna_001",
+  "topology": "Microstrip Patch",
+  "style": ["standard"],
+  "performance": {
+    "center_frequency_ghz": 2.45,
+    "fbw_percent": 4.08,
+    "gain_dbi": 6.5
+  },
+  "classes": {
+    "bands": ["S"],
+    "fbw_class": "Narrow",
+    "pattern": "Broadside",
+    "pol": "Linear",
+    "gain_class": "Mid"
+  },
+  "physical": {
+    "diameter_mm": 10,
+    "height_mm": 1
+  },
+  "training_captions": [
+    "A photo of a Microstrip Patch antenna. It has Linear polarization, a Broadside pattern, and operates in the S band with Narrow bandwidth.",
+    "High-performance antenna design, Mid gain Microstrip Patch style. It features a Narrow bandwidth centered at 2.45 GHz on an FR-4 substrate.",
+    "A simple Microstrip Patch for the S band, with Linear polarization."
+  ]
+}
+
+
