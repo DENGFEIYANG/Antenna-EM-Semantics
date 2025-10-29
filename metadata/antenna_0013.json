@@ -1,0 +1,28 @@
+{
+  "id": "antenna_0013",
+  "topology": "Patch Microstrip Antenna",
+  "style": ["patch", "microstrip-like", "circularly polarization"],
+  "performance": {
+    "center_frequency_ghz": [1.575],
+    "fbw_percent": [0.6],
+    "gain_dbi": [6.89]
+  },
+  "classes": {
+    "bands": ["L","S","C","X","Ku","K","Ka","V","W"],
+    "fbw_class": "UltraNarrow",
+    "pattern": "Broadside",
+    "pol": "Circular",
+    "gain_class": "Mid"
+  },
+  "physical": {
+    "diameter_mm": 100,
+    "height_mm": 1.524
+  },
+  "training_captions": [
+    "Mask-style patch layout on a thin substrate: microstrip feed excites two orthogonal modes in quadrature to yield circular polarization; broadside radiation with mid realized gain and ultra-narrowband behavior; usable across L/S/C/X/Ku/K/Ka/V/W via scaling.",
+    "Compact microstrip patch above a continuous ground plane—circularly polarized response with a clean broadside lobe; narrow FBW typical of patch antennas and moderate gain, suitable for tightly allocated bands.",
+    "Single-feed CP patch design on dielectric, employing slight asymmetries to enforce quadrature modes; delivers a broadside main lobe, mid gain, and ultra-narrow fractional bandwidth, with band usability extendable from L to W."
+  ]
+}
+
+

@@ -1,0 +1,28 @@
+{
+  "id": "antenna_0011",
+  "topology": "Patch Microstrip Antenna",
+  "style": ["patch", "microstrip-like", "circularly polarization"],
+  "performance": {
+    "center_frequency_ghz": [1.575],
+    "fbw_percent": [0.6],
+    "gain_dbi": [6.89]
+  },
+  "classes": {
+    "bands": ["L","S","C","X","Ku","K","Ka","V","W"],
+    "fbw_class": "UltraNarrow",
+    "pattern": "Broadside",
+    "pol": "Circular",
+    "gain_class": "Mid"
+  },
+  "physical": {
+    "diameter_mm": 100,
+    "height_mm": 1.524
+  },
+  "training_captions": [
+    "Planar patch microstrip antenna on a grounded dielectric slab—single resonant radiator with circular polarization and a broadside main lobe; ultra-narrow fractional bandwidth and mid realized gain; scalable from L through W bands by geometric resizing.",
+    "Square/rectangular patch over ground with a microstrip-like feed and CP realized by perturbations (e.g., corner truncations or slots); produces a stable broadside beam, mid gain, and characteristically ultra-narrow FBW.",
+    "Low-profile patch radiator featuring circular polarization (RHCP/LHCP via feed phasing) and a broadside boresight pattern; single-layer copper layout with mid gain and very narrow fractional bandwidth for precision channels."
+  ]
+}
+
+
