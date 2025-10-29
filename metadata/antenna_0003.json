@@ -1,0 +1,28 @@
+{
+  "id": "antenna_0003",
+  "topology": "Vivaldi Antenna",
+  "style": ["slot", "vivaldi", "microstrip-like"],
+  "performance": {
+    "center_frequency_ghz": [4],
+    "fbw_percent": [100],
+    "gain_dbi": [9.1]
+  },
+  "classes": {
+    "bands": ["S","C","X","Ku","K","Ka","V","W"],
+    "fbw_class": "UltraWide",
+    "pattern": "Endfire",
+    "pol": "Linear",
+    "gain_class": "High"
+  },
+  "physical": {
+    "diameter_mm": 100,
+    "height_mm": 1.524
+  },
+  "training_captions": [
+    "Tapered-slot (Vivaldi) antenna on a microstrip-like board: an exponential flare from a narrow throat to a wide open aperture at the board edge, yielding a directive endfire beam with linear polarization and high gain; ultra-wideband behavior scalable from S to W bands.",
+    "Planar Vivaldi geometry with a circular feed/throat that transitions smoothly into an exponential slot; single-layer copper pattern on dielectric; endfire radiation, linear polarization, and ultra-wide fractional bandwidth with strong effective aperture.",
+    "Open-ended tapered-slot radiator—smooth exponential flare and long aperture length; microstrip-fed throat for broadband match; delivers linear polarization and a directive endfire main lobe, usable across S/C/X/Ku/K/Ka/V/W via scaling."
+  ]
+}
+
+

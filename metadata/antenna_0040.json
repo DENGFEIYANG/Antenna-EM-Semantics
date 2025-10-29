@@ -1,0 +1,28 @@
+{
+  "id": "antenna_0040",
+  "topology": "Vivaldi Antenna",
+  "style": ["slot", "vivaldi", "microstrip-like"],
+  "performance": {
+    "center_frequency_ghz": [4],
+    "fbw_percent": [100],
+    "gain_dbi": [9.1]
+  },
+  "classes": {
+    "bands": ["S","C","X","Ku","K","Ka","V","W"],
+    "fbw_class": "UltraWide",
+    "pattern": "Endfire",
+    "pol": "Linear",
+    "gain_class": "High"
+  },
+  "physical": {
+    "diameter_mm": 100,
+    "height_mm": 1.524
+  },
+  "training_captions": [
+    "Mask-style Vivaldi layout: narrow input near a circular pad and a curved taper toward a wide mouth; high-gain endfire response, ultra-wideband impedance characteristics, and stable linear polarization over multiple bands.",
+    "Single-substrate tapered-slot antenna with a continuously flared slot and circular input region; inherently ultra-wideband, producing linear polarization and a forward endfire beam with strong directivity.",
+    "Exponential Vivaldi slot etched on a planar laminate—long, smoothly widening aperture that favors broadband operation; generates a linear-polarized endfire beam and high realized gain, with band usability spanning S to W when scaled."
+  ]
+}
+
+
