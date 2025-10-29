@@ -1,0 +1,30 @@
+{
+  "id": "antenna_0005",
+  "topology": "Double-Ridged Horn Antenna",
+  "style": ["horn", "double-ridged", "coax-fed", "pec", "sma-flange"],
+  "performance": {
+    "center_frequency_ghz": [2],
+    "fbw_percent": [100],
+    "gain_dbi": [13]
+  },
+  "classes": {
+    "bands": ["L","S","C","X","Ku","K","Ka"],
+    "fbw_class": "UltraWide",
+    "pattern": "Broadside",
+    "pol": "Linear",
+    "gain_class": "High"
+  },
+  "physical": {
+    "diameter_mm": 150,
+    "height_mm": 100
+  },
+  "training_captions": [
+    "Double-ridged horn with a rectangular flared aperture and a paired set of tapered ridges running from an SMA coax feed to the mouth; linear polarization set by the ridge orientation, ultra-wideband response, and a high-gain broadside beam scalable across L/S/C/X/Ku/K/Ka.",
+    "Coax-fed PEC horn: two symmetric internal ridges guide energy through the flare to the aperture, yielding a boresight main lobe, linear polarization, ultra-wide fractional bandwidth, and high realized gain over multiple bands.",
+    "Wideband ridged-horn geometry—exponential ridge profile and smooth flare—supports broadband matching and stable beam shape; produces a linear-polarized, high-directivity broadside pattern usable from L to Ka when scaled."
+  ]
+}
+
+
+
+

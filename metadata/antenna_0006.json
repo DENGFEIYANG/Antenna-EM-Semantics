@@ -1,0 +1,28 @@
+{
+  "id": "antenna_0006",
+  "topology": "Square Patch Microstrip Antenna",
+  "style": ["patch", "microstrip-like"],
+  "performance": {
+    "center_frequency_ghz": [1.575],
+    "fbw_percent": [0.6],
+    "gain_dbi": [6.89]
+  },
+  "classes": {
+    "bands": ["L","S","C","X","Ku","K","Ka","V","W"],
+    "fbw_class": "UltraNarrow",
+    "pattern": "Broadside",
+    "pol": "Linear",
+    "gain_class": "Mid"
+  },
+  "physical": {
+    "diameter_mm": 100,
+    "height_mm": 1.524
+  },
+  "training_captions": [
+    "Square microstrip patch on a dielectric slab—single copper layer over a ground plane—yielding linear polarization, a broadside radiation pattern with mid realized gain, ultra-narrow fractional bandwidth, and a low-profile form factor.",
+    "Planar square patch radiator with a microstrip-like feed; delivers a stable broadside main lobe and linear polarization with mid gain, exhibiting ultra-narrow FBW; scalable via geometric resizing across L/S/C/X/Ku/K/Ka/V/W bands.",
+    "Mask-style square patch layout: simple square metallization above ground with a short feed trace; produces a clean broadside beam, linear polarization, and the characteristic narrowband behavior of patch antennas."
+  ]
+}
+
+

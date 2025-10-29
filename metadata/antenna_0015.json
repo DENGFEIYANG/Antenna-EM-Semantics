@@ -1,0 +1,30 @@
+{
+  "id": "antenna_0015",
+  "topology": "Log-Periodic Dipole Array",
+  "style": ["log-periodic"],
+  "performance": {
+    "center_frequency_ghz": [0.5],
+    "fbw_percent": [100],
+    "gain_dbi": [7]
+  },
+  "classes": {
+    "bands": ["UHF","L"],
+    "fbw_class": "UltraWide",
+    "pattern": "Endfire",
+    "pol": "Linear",
+    "gain_class": "Mid"
+  },
+  "physical": {
+    "diameter_mm": 4000,
+    "height_mm": 20
+  },
+  "training_captions": [
+    "Log-periodic dipole array on twin booms with a lumped-port feed at the small-element end and a 300-ohm termination at the long-element end; linear polarization, endfire radiation, and ultra-wide fractional bandwidth.",
+    "Seven-element LPDA composed of PEC dipole pairs whose lengths and spacings shrink by a constant ratio, producing an endfire beam toward the feed with stable matching across a very wide band.",
+    "Planar LPDA concept: coplanar dipoles mounted on parallel booms, port at the shortest pair, resistive load at the longest; linear-pol, endfire/directive behavior and ultra-wideband impedance characteristics."
+  ]
+}
+
+
+
+

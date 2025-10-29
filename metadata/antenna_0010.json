@@ -1,0 +1,28 @@
+{
+  "id": "antenna_0010",
+  "topology": "UHF RFID Tag Antenna",
+  "style": ["bent-line", "microstrip-like"],
+  "performance": {
+    "center_frequency_ghz": [0.915],
+    "fbw_percent": [1.5],
+    "gain_dbi": [-6.66]
+  },
+  "classes": {
+    "bands": ["UHF","L","S","C"],
+    "fbw_class": "UltraNarrow",
+    "pattern": "Omnidirectional",
+    "pol": "Linear",
+    "gain_class": "Low"
+  },
+  "physical": {
+    "diameter_mm": 80,
+    "height_mm": 1.2
+  },
+  "training_captions": [
+    "Compact tag layout featuring a bent feed path and elongated trace; single-layer planar construction yields linear polarization with a dipole-like omni pattern; ultra-narrow fractional bandwidth and low gain, scalable to L/S/C by geometric resizing.",
+    "Mask-style render of a microstrip-like bent-line RFID radiator; the thin conductive path sets the resonance while maintaining very narrow FBW; linear polarization, omnidirectional field distribution, and intentionally low gain for close-range reading.",
+    "Printed bent-line tag antenna on dielectric: minimal thickness and planar copper trace; linear-polarized omnidirectional radiation with ultra-narrowband behavior and low gain; targeted at UHF but scalable toward higher bands up to C."
+  ]
+}
+
+

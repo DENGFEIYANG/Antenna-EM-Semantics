@@ -1,0 +1,29 @@
+{
+  "id": "antenna_0008",
+  "topology": "Double-Ridged Horn Antenna",
+  "style": ["horn", "double-ridged", "coax-fed", "pec", "sma-flange"],
+  "performance": {
+    "center_frequency_ghz": [2],
+    "fbw_percent": [100],
+    "gain_dbi": [13]
+  },
+  "classes": {
+    "bands": ["L","S","C","X","Ku","K","Ka"],
+    "fbw_class": "UltraWide",
+    "pattern": "Broadside",
+    "pol": "Linear",
+    "gain_class": "High"
+  },
+  "physical": {
+    "diameter_mm": 150,
+    "height_mm": 100
+  },
+  "training_captions": [
+    "Rectangular horn body with an inner ridge pair and SMA-flange transition; ultra-wideband behavior with strong aperture efficiency leads to a high-gain broadside lobe; designed for scalable multi-band operation.",
+    "Compact double-ridge structure: a tight ridge gap near the throat that opens toward the mouth forming a wide flare; linear polarization and high gain with a boresight beam; suitable for L/S/C/X/Ku/K/Ka coverage.",
+    "Metallic (PEC) double-ridged horn, coaxially excited, featuring tapered ridges that expand into a large rectangular mouth; exhibits ultra-wideband performance with a stable broadside main beam and linear polarization across many bands."
+  ]
+}
+
+
+
