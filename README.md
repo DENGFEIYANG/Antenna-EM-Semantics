@@ -1,6 +1,6 @@
 ## 1. Introduction
 
-This dataset is designed for training generative models (e.g., Diffusion Models, GANs) for the purpose of physics-constrained antenna design. Each data sample consists of an antenna image (`.png`) and a corresponding metadata file (`.json`) that details its physical properties, performance metrics, and descriptive captions.
+This dataset is designed for training generative models for the purpose of physics-constrained antenna design. Each data sample consists of an antenna image (`.png`) and a corresponding metadata file (`.json`) that details its physical properties, performance metrics, and descriptive captions.
 
 ## 2. Directory Structure
 
