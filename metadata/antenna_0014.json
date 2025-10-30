@@ -1,0 +1,27 @@
+{
+  "id": "antenna_0014",
+  "topology": "RTK Helical Antenna",
+  "style": ["FPC", "helix", "circularly polarization", "reflector-dish"],
+  "performance": {
+    "center_frequency_ghz": [0.948],
+    "fbw_percent": [0.8],
+    "gain_dbi": [2.3]
+  },
+  "classes": {
+    "bands": ["UHF","L"],
+    "fbw_class": "UltraNarrow",
+    "pattern": "Broadside",
+    "pol": "Circular",
+    "gain_class": "Mid"
+  },
+  "physical": {
+    "diameter_mm": 25,
+    "height_mm": 80
+  },
+  "training_captions": [
+    "Compact FPC helical antenna mounted above a small circular reflector dish; produces circular polarization with a broadside main lobe, ultra-narrow fractional bandwidth and mid realized gain, usable across UHF/L bands via scaling.",
+    "Flexible printed-circuit helix wound on a slim former and backed by a round reflector; single-feed CP radiation with a broadside beam, exhibiting ultra-narrowband behavior and moderate gain.",
+    "Reflector-backed FPC helix: several uniform turns starting from a base feed near the dish, delivering circular polarization and a broadside pattern; designed for ultra-narrow FBW with mid gain in UHF/L."
+  ]
+}
+
