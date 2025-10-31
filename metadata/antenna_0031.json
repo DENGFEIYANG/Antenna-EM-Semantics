@@ -1,0 +1,26 @@
+{
+  "id": "antenna_0031",
+  "topology": "Inverted Pyramid Antenna",
+  "style": ["Stack of Squares", "3D", "Broadband", "Inverted Pyramid"],
+  "performance": {
+    "center_frequency_ghz": [2.45],
+    "fbw_percent": [120],
+    "gain_dbi": [4.5]
+  },
+  "classes": {
+    "bands": ["L","S","C","X","Ku","K","Ka","V","W"],
+    "fbw_class": "UltraWide",
+    "pattern": "Broadside",
+    "pol": "Linear",
+    "gain_class": "Mid"
+  },
+  "physical": {
+    "diameter_mm": 60,
+    "height_mm": 60
+  },
+  "training_captions": [
+    "Stacked square metallic elements arranged as an inverted pyramid above a support, fed at the apex; the gradual area expansion enables wide impedance coverage, yielding linear-pol broadside radiation with mid gain.",
+    "3D tapered square-section antenna: discrete square steps emulate a continuous pyramid, delivering ultra-wideband match; radiates a broadside main lobe with linear polarization and moderate realized gain.",
+    "Mask-style concept of an inverted-pyramid broadband radiator—multiple square plates increasing in size toward the base—providing linear polarization, a broadside beam, and ultra-wideband characteristics from L to W when scaled."
+  ]
+}
